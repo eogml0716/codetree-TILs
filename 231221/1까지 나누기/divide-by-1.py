@@ -3,8 +3,8 @@ i = 1
 val = n  # 초기 값은 n으로 설정
 
 while True:
+    val = val // i  # 이전 나눗셈 결과를 다음 단계에서 사용
     if val <= 1:
-        print(i - 1)  # 나눗셈이 진행된 횟수는 i - 1
+        print(i)  # 여기서 i를 출력 (i-1이 아님)
         break
-    val = n // i  # 여기에서 나눗셈을 진행
     i += 1
