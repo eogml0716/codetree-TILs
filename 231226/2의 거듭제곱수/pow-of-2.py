@@ -2,8 +2,8 @@ n = int(input())
 x = 0
 
 while True: 
-    if (n == 0):
-        print(x-1)
+    if (n == 1):
+        print(x)
         break
     
     n //= 2
