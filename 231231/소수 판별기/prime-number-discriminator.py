@@ -10,4 +10,4 @@ for i in range(2, n):
 if s == True:
     print("P")
 else:
-    print("F")
+    print("C")
