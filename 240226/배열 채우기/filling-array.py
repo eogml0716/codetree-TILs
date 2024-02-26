@@ -1,3 +1,4 @@
+# 해설처럼 풀어보려고 노력하자 
 arr = list(map(int, input().split()))
 
 isTrue = False
