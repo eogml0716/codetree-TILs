@@ -11,3 +11,7 @@ for i in range(len(arr)):
     else:
         sum_val += arr[i]
         count_val += 1
+    
+    if (count_val == 10):
+        average_val = sum_val / count_val
+        print(f"{sum_val} {average_val:.1f}")  # 소수점 첫째 자리까지 출력
