@@ -10,5 +10,6 @@ for i in range(m):
         else:
             n = 3 * n + 1
         count_val += 1
-    
-print(count_val)
+    print(count_val)
+
+    count_val = 0
