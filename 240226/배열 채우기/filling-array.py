@@ -4,7 +4,7 @@ isTrue = False
 for i in range(len(arr)):
     if(arr[i] == 0):
         isTrue = True
-        for j in range(len(arr) - 2, -1, -1):
+        for j in range(i - 1, -1, -1):
             print(arr[j], end = " ")
         break
     
