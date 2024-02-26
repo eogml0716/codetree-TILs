@@ -13,5 +13,7 @@ for i in range(a, b+1):
     
     if (sum_val == temp):
         count_val += 1
+    # 왤캐 초기화를 안하지?
+    sum_val = 0
 
 print(count_val)
