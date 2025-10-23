@@ -16,11 +16,11 @@ public class Main {
 
           }
         } else {
-            if (a==1) {
-            System.out.println("GIRL");
+            if (a==0) {
+            System.out.println("BOY");
 
           } else {
-                        System.out.println("BOY");
+                        System.out.println("GIRL");
 
           }
         }
